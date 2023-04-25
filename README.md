@@ -9,11 +9,13 @@ Temas já estudados:
   
 Fundamentos:
 
-Seção 1:
-- Unix e Shell
-- Git o que é e para que serve
-- Git e GitHub entendendo os comandos
+- Seção 1:
+- [x] Unix e Shell
+- [x] Git o que é e para que serve
+- [x] Git e GitHub entendendo os comandos
 
 
-Seção 2:
-- Html e Css estruturas de página
+- Seção 2:
+- [x] HTML e CSS - Estruturas de página
+- [ ] HTML e CSS - Primeiros passos em CSS
+- [ ] HTML e CSS - Seletores e posicionamento
