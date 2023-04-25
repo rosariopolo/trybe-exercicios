@@ -15,3 +15,9 @@ Sempre abusar do git status para saber se o arquivo já foi comitado ou não e t
 Assim que estiver tudo pronto e rodando perfeitamente, para eu unir o que foi trabalhado na(s) outra(s) branch(s), eu devo dar o checkout branch main(que isso voltara para a branch principal) e depois eu devo utilizar o comando git merge nome-da-branch para que unifique todos os arquivos.
 
 OBS: Nunca altere o mesmo arquivo em branchs diferentes, pois isso pode gerar conflito. Tendo que resolver utilizando o VSCODE com o comando "code ." para inciar-lo já no local.
+
+Sempre que for criar uma nova branch remota, é necessário que a priveira vez que der git push seja usado o comando git push -u origin nome-da-branch
+
+Para remover uma branch local se usa o comando git branch -d(usado após ser mergeado os arquivos da branch) nome-da-branch e é possível usar -D para forçar o delete
+
+Para remover uma branch remotamente é necessário o comando git push origin --delete nome-da-branch.
