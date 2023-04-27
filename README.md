@@ -24,5 +24,5 @@ Fundamentos:
 
 - Seção 2:
 - [x] HTML e CSS - Estruturas de página
-- [ ] HTML e CSS - Primeiros passos em CSS
+- [x] HTML e CSS - Primeiros passos em CSS
 - [ ] HTML e CSS - Seletores e posicionamento
