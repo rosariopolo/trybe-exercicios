@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+  }
+
+  /* Alinha o primeiro lugar ao centro da tela usando o margin left e right no auto */
+
+  .first {
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Para alinhar os dois podiums um na frente do outro, colocado o display em "inline-block" */
+
+  .second {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+  }
+
+  .third {
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    display: inline-block
+  }
+
+  /* Colocar as listas desordenadas no centro e por o estilo "none" para que tire o ponto de marcação e centralize o podium de 2 e terceiro no meio */
+  ul {
+    text-align: center;
+    list-style: none;
+  }
+
+  /* Colocar o h3 em text-aling "center" para centralizar no meio da tela*/
+  h3{
+    text-align: center;
+  }
+
+  /* Colocar a classe .premiacao colocaro "ul" para me referir a lista desordenada dentro do premiacao e "li" para selecionar todos os "li dentro de "ul" e colocar display "inline" para que eles fiquem na frente um do outro*/
+  .premiacao ul li {
+    display: inline;
+  }
+
