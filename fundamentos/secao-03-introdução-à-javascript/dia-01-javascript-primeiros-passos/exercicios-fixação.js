@@ -86,3 +86,30 @@ if (angulosSaoPositivos){
 // Se a peça passada for inválida, o código deve retornar uma mensagem de erro.
 
 // Exemplo: bishop (bispo) -> diagonals (diagonais)
+
+let pecaDeXadrez = "peão";
+
+switch(pecaDeXadrez.toLowerCase()){
+    case "rei": 
+        console.log("Pode se mover em qualquer direção, porém apenas uma casa por vez.")
+        break;
+    case "rainha": 
+        console.log("Pode se mover em qualquer direção, porém quantas casas quiser.")
+        break;
+    case "bispo": 
+        console.log("Pode se mover na diagonal. quantas casas quiser.")
+        break;
+    case "torre": 
+        console.log("Pode se mover tanto na vertical quanto na horizontal, quantas casas quiser.")
+        break;
+    case "cavalo": 
+        console.log("Pode se mover em L tanto na horizontal quanto na vertical")
+        break;
+    case "peão": 
+        console.log ("Pode se mover uma casa pra frente, exceto no primeiro movimento, quando pode mover-se duas casas.")
+        break;
+    default:
+        console.log ("Erro.")
+    
+}
+   
