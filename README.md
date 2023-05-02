@@ -34,10 +34,10 @@ Fundamentos:
 <br>
 
 - Seção 3 (Introdução à JavaScript): 
-- [ ]JavaScript - Primeiros passos
-- [ ]JavaScript - Array e loop For
-- [ ]JavaScript - Funções
-- [ ]JavaScript - Objetos
-- [ ]JavaScript ES6 - let, const, arrow functions e template literals
-- [ ]Projeto - Playground Functions
+- [ ] JavaScript - Primeiros passos
+- [ ] JavaScript - Array e loop For
+- [ ] JavaScript - Funções
+- [ ] JavaScript - Objetos
+- [ ] JavaScript ES6 - let, const, arrow functions e template literals
+- [ ] Projeto - Playground Functions
  
