@@ -1,14 +1,7 @@
-let patientId = 50;
-let isEnrolled = true;
-let patientInfo = {
-  firstName: 'Ana',
-  lastName: 'Santos',
-};
-let patientEmail = 'ana@email.com';
+let myName = "Rosario";
+let birthCity = "Rio De Janeiro";
+let birthYear = 1990;
 
-console.log(typeof patientId)
-console.log(typeof isEnrolled)
-console.log(typeof patientInfo)
-console.log(typeof firstName)
-console.log(typeof lastName)
-console.log(typeof patientEmail)
+console.log(myName);
+console.log(birthCity);
+console.log(birthYear);
