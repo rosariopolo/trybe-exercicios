@@ -60,7 +60,7 @@ for (let index = 0; index < numbers.length; index += 1) {
     
 // Utilizando for, descubra o menor valor contido no array e imprima-o.
 
-let lowestNumber= numbers[0];
+let lowestNumber = numbers[0];
 
 for (let index = 1; index < numbers.length ; index += 1) {
   if(lowestNumber > numbers[index]){
@@ -100,8 +100,6 @@ for (let index = 1; index < 10; index += 1){
 }
 console.log("fatorial de 10 é:",tenFatorial)
 
-
-
 // Utilize a estrutura de repetição for para desenvolver um algoritmo que seja capaz de inverter uma palavra, como a palavra “banana” para “ananab”. Utilize a string abaixo como exemplo. Depois, troque-a por outras para verificar se seu algoritmo está funcionando corretamente.
 
 let word = 'tryber';
@@ -135,13 +133,21 @@ console.log("A menor palavra desse array é:",smallWord)
 
 // Um número primo é um número inteiro maior que 1 que possui somente dois divisores, ou seja, é divisível por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que imprima no console o maior número primo entre 2 e 50.
 
-let maiorNumeroPrimo = 0;
+let biggestPrimeNumber = 0;
 
-for (let index = 2; index <= 50; index += 1) {
-  if (maiorNumeroPrimo[index] / 1 == maiorNumeroPrimo[index] && maiorNumeroPrimo[index] / maiorNumeroPrimo[index] == maiorNumeroPrimo=[index]){
-    maiorNumeroPrimo = index
+for (let currentNumber = 2; currentNumber <= 50; currentNumber += 1) {
+  let isPrime = true;
+  for (let currentDivisor = 2; currentDivisor < currentNumber; currentDivisor += 1) {
+    if (currentNumber % currentDivisor === 0) {
+      isPrime = false;
+    }
+  }
+  if (isPrime) {
+    biggestPrimeNumber = currentNumber;
   }
 }
+
+console.log(biggestPrimeNumber);
 
 
 
