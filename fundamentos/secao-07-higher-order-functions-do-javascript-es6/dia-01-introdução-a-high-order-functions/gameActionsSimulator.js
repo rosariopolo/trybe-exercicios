@@ -48,7 +48,7 @@ const warriorAttackDamage = (warrior) => {
 const mageAttackDamage = () => {
   const manaMage = mage.mana;
   const minDmg = mage.intelligence;
-  const maxDmg = minDmg * 2;
+  const maxDmg = Math.floor(Math.random() * (90 - 45 + 1)) + 45;
   const turnStats = {
     manaSpent: 0,
     damage: 'Não possui mana suficiente'
