@@ -2,13 +2,13 @@
 const numbers = [18, 19, 23, 53, 4, 5, 76, 23, 54];
 
 const justEvens = numbers.filter((number) => number % 2 === 0);
-const sumOdds = justEvens.reduce((acc, curr) => acc + curr);
+const sumEvens = justEvens.reduce((acc, curr) => acc + curr);
 
 const justReduce = numbers.reduce((acc, curr) => (curr % 2 === 0) ? acc + curr : acc)
 
 console.log(justReduce);
 console.log(justEvens);
-console.log(sumOdds);
+console.log(sumEvens);
 
 
 
