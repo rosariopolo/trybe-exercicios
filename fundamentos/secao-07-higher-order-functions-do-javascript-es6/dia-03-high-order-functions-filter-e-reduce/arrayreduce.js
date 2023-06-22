@@ -4,7 +4,7 @@ const numbers = [18, 19, 23, 53, 4, 5, 76, 23, 54];
 const justEvens = numbers.filter((number) => number % 2 === 0);
 const sumEvens = justEvens.reduce((acc, curr) => acc + curr);
 
-const justReduce = numbers.reduce((acc, number) => (number % 2 === 0) ? acc + number : acc)
+const justReduce = numbers.reduce((acc, number) => (number % 2 === 0) ? acc + number : acc);
 
 console.log(justReduce);
 console.log(justEvens);
