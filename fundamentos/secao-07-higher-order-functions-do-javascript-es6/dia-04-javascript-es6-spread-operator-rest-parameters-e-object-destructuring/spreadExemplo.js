@@ -14,3 +14,6 @@ const fruitSalad = (fruit, additional) => {
 };
 
 console.log(fruitSalad(specialFruit, additionalItens));
+
+const sum = (...args) => args.reduce((accumulator, current) => accumulator + current, 0);
+console.log(sum(4, 7, 8, 9, 60, 20, 9392, 9203 ,39 ,049, 5555)); 
